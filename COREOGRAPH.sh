@@ -1,3 +1,2 @@
-make clean
 cmake -DPCRE2GREP_SUPPORT_JIT=OFF -DPCRE2GREP_SUPPORT_CALLOUT_FORK=OFF .
-make
+make && make install
